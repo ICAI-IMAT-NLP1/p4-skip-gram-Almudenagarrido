@@ -1,0 +1,7 @@
+Después de haber entrenado el modelo y comprobando gráficamente los embeddings obtenidos,
+se ha podido comprobar visualmente las relaciones entre las palabras en el entrenamiento. 
+Y para mi desagrado, las relaciones entre las palabras son poco coherentes e incluso 
+decepcionantes. Hay palabras como 'europa' y 'american' que deberían estar notablemente
+más separadas, que se encuentran muy cerca. Y por el contrario, otras como 'london' y 
+'kingdom' que deberían estar más cerca y se encuentran separadas. En general no parece 
+que los embeddings hayan funcionado demasiado bien.

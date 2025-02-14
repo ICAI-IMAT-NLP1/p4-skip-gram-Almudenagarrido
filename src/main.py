@@ -50,6 +50,7 @@ def main():
         noise_dist = torch.tensor(unigram_dist ** 0.75 / torch.sum(unigram_dist ** 0.75)).to(device)
 
         print("Step 4: Initializing the SkipGram model...")
+        print("noise in main", noise_dist)
         model = SkipGramNeg(len(vocab_to_int), embedding_dim, noise_dist=noise_dist).to(device)
         print("Model initialized.")
 
